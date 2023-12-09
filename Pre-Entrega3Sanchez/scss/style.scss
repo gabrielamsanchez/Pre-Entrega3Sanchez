@@ -1,0 +1,60 @@
+//variales
+$color-fondo: white;
+$principal: #E6BDF0;
+$font-principal:Verdana, Geneva, Tahoma, sans-serif;
+$color-pie: #419B70;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: $color-fondo;
+    font-family: $font-principal;
+    .barra {
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        padding: 20px;
+        justify-content: left;
+}}
+
+header{
+    p{
+        display: center;
+        background-color: $principal;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+}}
+
+.fondito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.prod-destacados{
+        display: flex;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 10px;
+        padding: 10px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*iconos de barra*/
+@import"./partials/iconosbarra";
+
+/*whatsapp fijo*/
+@import"./partials/botonwsp";
+/*pie de pagina*/
+@import"./partials/footer";
+
+/*main principal*/
+@import"./partials/mainprincipal";

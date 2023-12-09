@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vivero online donde se venden plantas de interior y exterior">
+    <meta name="keywords" content="html, css, sass, scss, bootstrap, cdn js vivero, online, plantas, interior, exterior, envios gratis, favoritos, productos, destacados, ubicacion
+    monstera, limonero, gomero, subscribete, newsletter, nosotros, contacto, comentarios, verdecora, español, shop, compra, regalos, deco, decoracion, hogar, instagram, facebook, whatsapp, santa fe, argentina">
+    <title>Verdecora</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- css -->
+<link rel="stylesheet" href="./css/style.css"></head>
+<!-- iconos -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<body>
+
+<!-- barra de navegacion -->
+    <header > 
+    <nav class="navbar navbar-expand-md">
+        <di class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="media/logo.png" width="140" alt="logo">
+        </a>
+
+        <ul class="navbar-nav d-flex justify-content-center align-items-left">
+            <li class="nav-item">
+                <a class="nav-link" href="#productos">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/ubicacion.html">Ubicacion</a>
+            </li>
+        </ul>
+    </div> 
+<!-- barra de iconos -->
+    <div class="icons">
+        <a href="#" class="bi bi-person-fill-add"></a>
+        <a href="#" class="bi bi-heart-fill"></a>
+        <a href="#" class="bi bi-bag-heart"></a>
+    </div>
+    </nav>
+<!-- boton flotante -->
+        <a href="https://api.whatsapp.com/send?phone=333444555666&text=Hola,%20bienvenidos%20a%20Verdecora!"  target="_blank" class="float"  >
+            <i class="bi bi-whatsapp"></i>
+        </a>
+    </header>
+
+<section>
+        <div class="fondito">
+        <img class="img-fluid" src="./media/tenemos-planta.png" class="rounded"  alt="fondo">
+        </div> 
+    </section>  
+<section id="productos">
+    <div class="prod-destacados">
+        <h1>PRODUCTOS DESTACADOS</h1>
+    </div>
+</section>
+    <main> 
+        <div class="tarjeta">
+            <img src="./media/Monstera.png" alt="monstera">
+            <h3>Monstera $25</h3>
+        </div>
+
+        <div class="tarjeta">
+            <img src="./media/calathea.png" alt="calathea">
+            <h3>Calathea $25</h3>
+        </div>
+<!-- carrousel-->
+    <div class="tarjeta">
+        <div id="carouselExample" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./media/limonero-1.png" class="d-block w-100" alt="...">
+                <h3>Limonero $25</h3>
+                </div>
+                <div class="carousel-item">
+                <img src="./media/limonero-2.JPG" class="d-block w-100" alt="...">
+                <h3>Limonero con su flor</h3>
+                </div>
+                <div class="carousel-item">
+                <img src="./media/limonero-3.JPG" class="d-block w-100" alt="...">
+                <h3>Limon fresco</h3>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+        <div class="tarjeta">
+            <img src="./media/gomero.png" alt="gomero">
+            <h3>Gomero $25</h3>
+        </div>
+
+        <div class="tarjeta">
+            <img src="./media/zebrinha.png" alt="cactus">
+            <h3>Zebrinha $25</h3>
+        </div>
+        
+        <div class="tarjeta">
+            <img src="./media/Philodendron.png" alt="potus">
+            <h3>Philodendron $25</h3>
+        </div> 
+    </main>
+
+<!-- comienzo pie de pagina -->
+<footer>
+<div class="container p-2">
+    <div class="row">
+        <div class="col-lg-6 col-sm-6" >
+            <div class="single-box">
+                <h5>Siguenos en nuestras redes</h5>
+                <div><a href="https://www.facebook.com" class="text-decoration-none text-dark bg-white" >Facebook</a></div>
+                <div><a href="https://www.instagram.com" class="text-decoration-none text-dark bg-white">Instagram</a></div>
+                <div><a href="https://web.whatsapp.com" class="text-decoration-none text-dark bg-white">WhatsApp</a></div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 ">
+            <div class="row justify-content-end">
+                <h5>Subscribete a nuestro newsletter</h5>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingrese su e-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid  text-center p-2">
+    <p>&copy;VERDECORA todos los derechos reservados.</p>      
+    </div>
+</footer>    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
