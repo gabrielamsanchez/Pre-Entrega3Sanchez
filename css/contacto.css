@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body{ 
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+h3{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    background-color: #E6BDF0;
+    opacity: 90%;
+    margin: 10px;
+    padding:20px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 8px;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 400px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+
+label{
+    color:black;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    align-items: center;
+
+
+}
+
+input,textarea{
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border: 2px solid  rgb(231, 224, 224);
+}
+
+/*boton*/
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6BDF0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background-color: #bf53db;
+}
+
+.casa{
+    display: flex;
+    text-decoration:underline;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.casa:hover{
+    color: #bf53db;
+}
+
+/*pie de pagina*/
+footer p {
+    color: #419B70;
+    font-size: 20px;
+    text-align:left;
+    margin: 10px;
+    padding: 20px;
+}
+footer .copy{
+    color: black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 10px;
+
+   
+}

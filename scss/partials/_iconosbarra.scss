@@ -1,0 +1,12 @@
+/*iconos de barra*/
+.icons a{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.911);
+    padding: 10px;
+    margin-left: 0.5rem;
+    justify-content: right;
+    align-items: right;
+    &:hover{
+        color: $principal;
+}
+}
